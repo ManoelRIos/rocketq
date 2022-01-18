@@ -66,3 +66,26 @@ input, button, .button{
     width: 100%;
     height: 1px;
 }
+
+.ball {
+    width: 21.2rem;
+    height: 21.2rem;
+    clip-path: circle();
+    background: var(--blue);
+    position: fixed;
+    opacity: 0.1;
+}
+
+.ball.top{
+    width: 63.3rem;
+    height: 63.3rem;
+    top: -33rem;
+    right: -33rem;
+
+}
+
+.ball.bottom{
+    bottom: -10.6rem;
+    right: 5.4rem;
+
+}
