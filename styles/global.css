@@ -14,7 +14,7 @@ html{
 
     --black: #0d114f;
     --white: #fafafa;
-    --red: #e83f5b
+    --red: #e83f5b;
     --light-blue: #e0ecff;
     --blue: #3485ff;
     --background: #f6faff;
@@ -24,6 +24,7 @@ html{
     --gray-dark: #4d5e77;
     --gray-blue: #a1b2cd;
     --gray-light: #e5eaf1;
+    --gray-medium: #eaecf2;
     
     font-size: 62.5%;
 }
@@ -60,7 +61,7 @@ body, button, textarea, input{
 
 input, button, .button{
     border-radius: .8rem;
-    height: 5rem;
+    height: 2rem;
 }
 
 button, .button{
@@ -85,7 +86,7 @@ button:hover, .button:hover{
 
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
@@ -108,3 +109,4 @@ button.outlined,
     width: 16.7rem;
 
 }
+
