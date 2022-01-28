@@ -38,6 +38,7 @@ main h2{
 
 input{
     border: .2rem solid var(--gray-blue);
+    outline: none;
     padding: 0 1.6rem;
 }
 
