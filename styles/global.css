@@ -59,9 +59,11 @@ body, button, textarea, input{
     border-width: 0;
 }
 
+/*Input & Buttons*/
+
 input, button, .button{
     border-radius: .8rem;
-    height: 2rem;
+    height: 5rem;
 }
 
 button, .button{
@@ -100,6 +102,19 @@ button.outlined,
 
 }
 
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.gray,
+.button.gray{
+    background: var(--gray-light);
+    color: var(--gray-dark);
+}
+
+/*Header*/
 .content header{
     width: 80%;
     margin: 3.5rem auto;
