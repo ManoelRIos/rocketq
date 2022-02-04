@@ -1,0 +1,24 @@
+{
+  "name": "discover",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas e resposta, NLW - Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ser/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManoelRIos/nlw-together-foundation.git"
+  },
+  "keywords": [],
+  "author": "Manoel Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManoelRIos/nlw-together-foundation/issues"
+  },
+  "homepage": "https://github.com/ManoelRIos/nlw-together-foundation#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  }
+}
