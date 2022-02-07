@@ -47,4 +47,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
- Créditos: Rocketseat[Participe da comunidade da Rocketseat!](https://discordapp.com/invite/gCRAFhc)
+ Fonte: (https://github.com/rocketseat-education) [Participe da comunidade da Rocketseat!](https://discordapp.com/invite/gCRAFhc)
