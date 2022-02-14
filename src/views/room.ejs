@@ -17,17 +17,17 @@
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
       <!-- SCRIPTS -->
-      <script src="scripts/main.js" defer type="module"></script>
+      <script src="/scripts/main.js" defer type="module"></script>
   </head>
 
   <body>
       <div id="room" class="content">
           <header>
-            <a href="#">
-              <img src="images/logo.svg" alt="Rocket.Q Logo">
+            <a href="/">
+              <img src="/images/logo.svg" alt="Rocket.Q Logo">
             </a>
               <div class="buttons">
-                <div class="button outlined">
+                <div class="button outlined" id="room-id" data-id="323243">
                   #323243
                   <img src="/images/copy.svg" alt="">                
                 </div>
@@ -68,12 +68,12 @@
                       </div>
                     </div>
                     <div class="actions">                      
-                      <a href="#"class="check">
+                      <a href="#" class="check" data-id="2">
                         <img src="/images/check.svg" alt="">
                         Marcar como lida
                       </a>
 
-                      <a href="#"class="delete">
+                      <a href="#"class="delete" data-id="2">
                         <img src="/images/trash.svg" alt="">                    
                         Excluir
                       </a>
@@ -90,12 +90,12 @@
                   </div>
                 </div>
                 <div class="actions">                      
-                  <a href="#" class="check" >
+                  <a href="#" class="check" data-id="1">
                     <img src="/images/check.svg" alt="">
                     Marcar como lida
                   </a>
 
-                  <a href="#" class="delete">
+                  <a href="#" class="delete" data-id="1">
                     <img src="/images/trash.svg" alt="">                    
                     Excluir
                   </a>
@@ -113,7 +113,7 @@
           <h2>Excluir pergunta</h2>
           <p>Tem certeza que você deseja excluir essa pergunta?</p>
           
-          <form action="">
+          <form action="#" method="POST">
             <label class="sr-only" for="password">Digite sua senha admin</label>
             <input id="password" type="password" name="password" placeholder="Digite sua senha">
 
